@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
             className="text-6xl md:text-8xl font-outfit font-bold leading-[1.05] tracking-tight text-white max-w-xl"
           >
             I build value through <span className="text-neutral-500">marketing.</span>
-          </h1 >
+          </motion.h1>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}
