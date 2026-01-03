@@ -18,3 +18,15 @@ View your app in AI Studio: https://ai.studio/apps/drive/14LA9ehu4gHCB9pcW8RlyBl
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to GitHub Pages
+
+1. Create a new repository on GitHub.
+2. Link your local repository to the remote:
+   ```bash
+   git remote add origin https://github.com/<your-username>/<repo-name>.git
+   ```
+3. Run the deploy command:
+   ```bash
+   npm run deploy
+   ```
